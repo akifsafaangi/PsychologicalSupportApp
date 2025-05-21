@@ -226,6 +226,9 @@ class _AudioToEmotionPageState extends State<AudioToEmotionPage> {
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               Text(resultData['original_text']),
+              SizedBox(height: 10),
+              Text("🌐 Çeviri:", style: TextStyle(fontWeight: FontWeight.bold)),
+              Text(resultData['translated_text'] ?? "Çeviri yok"),
               SizedBox(height: 20),
             ],
             if (resultData['alternatives'] != null &&

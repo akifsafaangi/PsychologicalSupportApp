@@ -1,0 +1,7 @@
+flask
+transformers
+torch
+flask_cors
+deep-translator
+openai==0.28
+git+https://github.com/openai/whisper.git
